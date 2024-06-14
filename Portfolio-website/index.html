@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8c4d623338.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+                    <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    
+                    </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+            </nav>
+<div class="header-text">
+    <p>SE Undergraduate</p> 
+    <h1>Hi, I'm <span>Vinumi Weerakkodi</span><br>from Sri Lanka</h1>
+    <a href="https://github.com/VinuWeer" class="cta" target="_blank">Learn More</a>
+</div>
+</div>
+</div>
+
+<!-------------------about----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me </h1>
+                <p> I am a third-year Software Engineering undergraduate at NSBM Green University, passionate about coding and innovation. Eager to apply my skills in a dynamic internship to gain hands-on experience and contribute to impactful projects.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>JAVA, C++</li>
+                        <li><span>Web Development and Mobile App Development</span><br>HTML, CSS, Javascript, React, Flutter</li>
+                        <li><span>Software Development</span><br>Agile Methodologies, Test-Driven Development</li>
+                        <li><span>Quality Assurance</span><br>Testing, Test Case Development</li>
+                        <li><span>UI/UX Design</span><br>User-Centered Design, Interactive Design, Canva, Wireframing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Weather Prediction App</span><br>This app provides real-time temperature, wind speed, and humidity information when a valid city name is entered.</li>
+                        <li><span>Snake Game</span><br>An engaging Snake game where you control the snake to eat food and grow, avoiding obstacles to achieve the highest score.</li>
+                        <li><span>Number Guessing Game</span><br>A fun Number Guessing game where you have just 3 tries to guess the correct number within a given range.</li>
+                        <li><span>Online Code Editor</span><br>An innovative online code editor designed for seamless coding, debugging, and collaboration from anywhere with internet access.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>Passed GCE Ordinary Level</li>
+                        <li><span>2021</span><br>Passed GCE Advanced Level</li>
+                        <li><span>Undergraduate(2022)</span><br>Bsc(Hons) in Software Engineering</li>
+                        <li><span>Undergraduate(2022)</span><br>BA in English General (External)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------services---------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Expertise</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Specializing in transforming creative concepts into sleek, responsive websites and applications that deliver exceptional user experiences.</p>
+            <a href="https://github.com/VinuWeer">Learn more</a>
+        </div> 
+        <div>
+            <i class="fa-regular fa-star"></i>
+            <h2>Sofware Quality Assurance</h2>
+            <p>Combining a passion for programming with a meticulous approach to quality assurance, I specialize in implementing robust testing strategies to ensure flawless software performance.</p>
+        <a href="https://github.com/VinuWeer">Learn more</a>
+        </div> 
+        <div>
+            <i class="fa-solid fa-users-viewfinder"></i>
+            <h2>UI/UX Design </h2>
+            <p>Driven by a passion for creating intuitive user interfaces and enriching user experiences, I integrate UI/UX design principles into every project. Proficient in crafting visually appealing layouts and seamless interactions, I ensure that software not only functions flawlessly but also delights its users.</p>
+            <a href="https://github.com/VinuWeer">Learn more</a>
+        </div> 
+
+
+        </div>
+    </div>
+</div>
+<!----------------portfolio------------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.avif">
+                <div class="layer">
+                    <h3>Weather Prediction Web App</h3>
+                    <p>Your personal weather wizard, bringing forecasts to your fingertips with a sprinkle of charm and accuracy</p>
+                    <a href="https://github.com/VinuWeer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Simple Snake Game</h3>
+                    <p>Slither into retro gaming bliss with our addictively fun Snake game, where every munch brings you closer to victory!</p>
+                    <a href="https://github.com/VinuWeer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Online Code Editor</h3>
+                    <p>Write, edit, and test your code anywhere, anytime. Perfect for HTML, CSS, and JavaScript. Simplify your coding experience today!</p>
+                    <a href="https://github.com/VinuWeer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.webp">
+                <div class="layer">
+                    <h3>Number Guessing Game</h3>
+                    <p>Step into the thrill of our Number Guessing game, where sharp wits and just three tries stand between you and victory!</p>
+                    <a href="https://github.com/VinuWeer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/VinuWeer" class="btn">See More</a>
+    </div>
+</div>
+<!----------------------Contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-solid fa-paper-plane"></i>weerakkodivinumi@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>+94 713973172</p>
+                 <div class="social-icons">
+                    <a href="@"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="@"><i class="fa-brands fa-square-github"></i></a>
+                 </div>
+                 <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span> 
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------Footer-------------------------->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Vinumi Weerakkodi. All Rights Reserved.</p>
+        <ul class="socials">
+            <li><a href="https://github.com/VinuWeer" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://bit.ly/4dMFu01" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+   function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+       }
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+   }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQ25U_Ym0Exlm5E53P_mNCAmJb-cRG4Hq5UU0f8jooeqmsbiGlYLDC5LUcyisLZkEJpA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+        
+    </body>
+    </html>    
